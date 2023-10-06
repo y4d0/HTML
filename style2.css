@@ -1,0 +1,33 @@
+span{
+    color: blueviolet;
+}
+
+div p span{
+    color: tomato;
+}
+
+/* ul>li{
+    color: blue;
+} */
+
+/* li+li{
+    color: crimson; 
+} */
+
+li~li{
+    color: rgb(21, 255, 0); 
+}
+
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: #ddff1f;
+}
+
+a:hover{
+    border: 1px solid red;
+    color: black;
+}
