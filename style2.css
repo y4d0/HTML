@@ -31,3 +31,39 @@ a:hover{
     border: 1px solid red;
     color: black;
 }
+
+/* ul>li:first-child{
+    color: green;
+} */
+
+/* li:first-child{
+    color: green;
+} */
+
+/* li:last-child{
+    color: rgb(114, 68, 0);
+} */
+
+ul>li:nth-child(2n){
+    border: 1px solid rebeccapurple;
+    color: green;
+    background-color: bisque;
+}
+
+ul>li:nth-child(2n+1){
+    border: 1px solid rgb(167, 99, 236);
+    color: rgb(25, 250, 25);
+    background-color: rgb(151, 95, 26);
+}
+
+div p::first-letter{
+    font-size: 50px;
+}
+
+ li::before{
+    content: '😂';
+}
+
+li::after{
+    content: '🤣';
+}
